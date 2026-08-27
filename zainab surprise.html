@@ -220,6 +220,11 @@ for(let i=0;i<18;i++){
   document.body.appendChild(heart);
 }
 </script>
-
+<script>
+document.addEventListener("click", function () {
+    const song = document.getElementById("song");
+    song.play();
+}, { once: true });
+</script>
 </body>
 </html>
